@@ -1,7 +1,7 @@
 @use "colors";
 
 .nav-bar {
-  height: 5vh;
+  height: 40px;
 
   display: flex;
   flex-direction: row;
@@ -12,23 +12,29 @@
   color: lime;
   font-family: monospace;
 
+  //overflow-x: scroll;
+  text-align: center;
+  white-space: nowrap;
+
   & .project-link {
     height: 100%;
-    flex-grow: 1;
+    flex: 1 1 0px;
 
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 
+    padding: 2px 5px;
+
     & .selected-project {
       text-decoration: underline;
+      //font-style: italic;
     }
 
     &:hover {
       cursor: pointer;
-      color: black;
-      background-color: lime;
+      text-decoration: underline;
     }
   }
 }

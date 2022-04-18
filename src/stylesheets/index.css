@@ -42,7 +42,7 @@ iframe {
 }
 
 .nav-bar {
-  height: 5vh;
+  height: 40px;
   display: flex;
   flex-direction: row;
   justify-content: stretch;
@@ -50,27 +50,29 @@ iframe {
   background: black;
   color: lime;
   font-family: monospace;
+  text-align: center;
+  white-space: nowrap;
 }
 .nav-bar .project-link {
   height: 100%;
-  flex-grow: 1;
+  flex: 1 1 0px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  padding: 2px 5px;
 }
 .nav-bar .project-link .selected-project {
   text-decoration: underline;
 }
 .nav-bar .project-link:hover {
   cursor: pointer;
-  color: black;
-  background-color: lime;
+  text-decoration: underline;
 }
 
 .project-display {
-  height: 95vh;
   width: 100vw;
+  flex: 1 1 auto;
 }
 .project-display iframe {
   height: 100%;
@@ -81,7 +83,12 @@ iframe {
   height: 100vh;
   width: 100vw;
   border: none;
-  font-size: 20px;
+  font-size: 13px;
+  font-weight: lighter;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: stretch;
 }
 
 /*# sourceMappingURL=index.css.map */

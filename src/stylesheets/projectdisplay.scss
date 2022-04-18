@@ -1,8 +1,9 @@
 @use "colors";
 
 .project-display {
-  height: 95vh;
   width: 100vw;
+
+  flex: 1 1 auto;
 
   & iframe {
     height: 100%;

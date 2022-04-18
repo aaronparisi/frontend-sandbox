@@ -8,5 +8,11 @@
   width: 100vw;
   border: none;
 
-  font-size: 20px;
+  font-size: 13px;
+  font-weight: lighter;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: stretch;
 }

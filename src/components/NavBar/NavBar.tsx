@@ -32,7 +32,7 @@ const NavBar: React.FC<NavBarProps> = ({
                   : `project-link-text`
               }
             >
-              {projectDisplay(project)}
+              {`\</${projectDisplay(project)}>`}
             </div>
           </li>
         );
