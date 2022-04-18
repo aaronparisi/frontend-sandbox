@@ -42,7 +42,7 @@ iframe {
 }
 
 .nav-bar {
-  height: 3vh;
+  height: 5vh;
   display: flex;
   flex-direction: row;
   justify-content: stretch;
@@ -69,7 +69,7 @@ iframe {
 }
 
 .project-display {
-  height: 97vh;
+  height: 95vh;
   width: 100vw;
 }
 .project-display iframe {
