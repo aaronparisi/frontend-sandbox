@@ -11,6 +11,7 @@ const projects = [
   "https://www.candies-70th.aaronparisi.dev",
   "https://www.v1.aaronparisi.dev",
   "https://www.tictactoe.aaronparisi.dev",
+  "https://www.minesweeper.aaronparisi.dev",
 ];
 
 function App() {
