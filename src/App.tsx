@@ -8,6 +8,7 @@ const projects = [
   "https://www.archer.aaronparisi.dev",
   "https://www.towers.aaronparisi.dev",
   "https://www.jeerkat-js.aaronpari.dev",
+  "https://www.candies-70th.aaronparisi.dev",
   "https://www.v1.aaronparisi.dev",
   "https://www.tictactoe.aaronparisi.dev",
 ];
