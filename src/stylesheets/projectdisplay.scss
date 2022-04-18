@@ -1,0 +1,11 @@
+@use "colors";
+
+.project-display {
+  height: 97vh;
+  width: 100vw;
+
+  & iframe {
+    height: 100%;
+    width: 100%;
+  }
+}
