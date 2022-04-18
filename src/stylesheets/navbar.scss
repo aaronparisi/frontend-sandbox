@@ -21,6 +21,10 @@
     justify-content: center;
     align-items: center;
 
+    & .selected-project {
+      text-decoration: underline;
+    }
+
     &:hover {
       cursor: pointer;
       color: black;
