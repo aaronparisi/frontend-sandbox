@@ -4,6 +4,7 @@ import ProjectDisplay from "./components/ProjectDisplay/ProjectDisplay";
 import "./stylesheets/index.css";
 
 const projects = [
+  "https://www.newsletter.aaronparisi.dev",
   "https://www.faq.aaronparisi.dev",
   "https://www.archer.aaronparisi.dev",
   "https://www.towers.aaronparisi.dev",
